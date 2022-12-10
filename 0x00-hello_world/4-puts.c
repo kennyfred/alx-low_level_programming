@@ -1,14 +1,12 @@
-#/include <studio.h>
-
-
+#include <studio.h>
 /**
- * main - Entry point
+ * main - Entry Point
  *
  * Return: Always 0 (sucess)
  */
-
 int main(void)
 {
-	puts ("/"Programming is like building a multilingual puzzle") ;
-	return (0) ;
+	puts("\"programming is like building a multillingual puzzle");
+	return (0);
+
 }
