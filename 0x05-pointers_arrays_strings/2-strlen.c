@@ -10,8 +10,11 @@ int _strlen(char *s)
 	int index;
 
 	for
-		(index = 0, s[index] != '\0'; index++)
-			;
+		(; *s != '\0'; s++);
+		{
+			index += 1;
+		}
+
 	return (index);
 }
 
